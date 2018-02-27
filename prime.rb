@@ -1,4 +1,4 @@
-def prime_number(n)
+def prime?(n)
   if n <= 0
     false
   else
