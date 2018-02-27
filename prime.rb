@@ -1,5 +1,5 @@
 def prime?(n)
-  if n <= 0
+  if n <= 1
     false
   else
     new_arr = [*2..(n-1)]
