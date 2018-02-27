@@ -1,6 +1,6 @@
 def prime_number(n)
   if n <= 0
-    FALSE
+    false
   else
     new_arr = [*2..(n-1)]
     !new_arr.any? {|element| n % element == 0}
